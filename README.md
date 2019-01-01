@@ -9,13 +9,7 @@ symfony 1.x plugin that offers a set of [Tango Icons](http://tango.freedesktop.o
   * Install the plugin
 
     ~~~sh
-    symfony plugin:install sfTangoIconsPlugin
-    ~~~
-
-  * Clear cache
-
-    ~~~sh
-    symfony cc
+    composer require tomasz-rup/sf-tango-icons-plugin
     ~~~
 
 ## Configuration

@@ -1,0 +1,21 @@
+{
+    "name": "tomasz-rup/sf-tango-icons-plugin",
+    "type": "symfony1-plugin",
+    "description": "symfony 1.x plugin that offers a set of Tango Icons",
+    "keywords": ["symfony1", "tango"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Jakub Rup",
+            "email": "tomasz.rup@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/tomi77/sfTangoIconsPlugin/issues",
+      "source": "https://github.com/tomi77/sfTangoIconsPlugin"
+    },
+    "require": {
+        "symfony/symfony1": "*"
+    }
+}
