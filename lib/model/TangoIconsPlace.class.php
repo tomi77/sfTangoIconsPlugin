@@ -6,27 +6,19 @@
  */
 class TangoIconsPlace
 {
-  const
-    FOLDER_REMOTE = 'folder-remote',
-
-    FOLDER_SAVED_SEARCH = 'folder-saved-search',
-
-    FOLDER = 'folder',
-
-    NETWORK_SERVER = 'network-server',
-
-    NETWORK_WORKGROUP = 'network-workgroup',
-
-    START_HERE = 'start-here',
-
-    USER_DESKTOP = 'user-desktop',
-
-    USER_HOME = 'user-home',
-
-    USER_TRASH = 'user-trash';
+    const
+    FOLDER_REMOTE = 'folder-remote';
+    const FOLDER_SAVED_SEARCH = 'folder-saved-search';
+    const FOLDER = 'folder';
+    const NETWORK_SERVER = 'network-server';
+    const NETWORK_WORKGROUP = 'network-workgroup';
+    const START_HERE = 'start-here';
+    const USER_DESKTOP = 'user-desktop';
+    const USER_HOME = 'user-home';
+    const USER_TRASH = 'user-trash';
 
     public static function getContext()
     {
-      return 'places';
+        return 'places';
     }
 }
