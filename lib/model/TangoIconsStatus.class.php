@@ -6,94 +6,60 @@
  */
 class TangoIconsStatus
 {
-  const
-    AUDIO_VOLUME_HIGH = 'audio-volume-high',
-
-    AUDIO_VOLUME_LOW = 'audio-volume-low',
-
-    AUDIO_VOLUME_MEDIUM = 'audio-volume-medium',
-
-    AUDIO_VOLUME_MUTED = 'audio-volume-muted',
-
-    /**
-	 * A battery with a yellow glow, yellow coloring
-	 */
-    BATTERY_CAUTION = 'battery-caution',
-
-    DIALOG_ERROR = 'dialog-error',
-
-    DIALOG_INFORMATION = 'dialog-information',
-
-    DIALOG_WARNING = 'dialog-warning',
-
-    FOLDER_DRAG_ACCEPT = 'folder-drag-accept',
-
-    FOLDER_OPEN = 'folder-open',
-
-    FOLDER_VISITING = 'folder-visiting',
-
-    IMAGE_LOADING = 'image-loading',
-
-    IMAGE_MISSING = 'image-missing',
-
-    MAIL_ATTACHMENT = 'mail-attachment',
-
-    NETWORK_ERROR = 'network-error',
-
-    NETWORK_IDLE = 'network-idle',
-
-    NETWORK_OFFLINE = 'network-offline',
-
-    NETWORK_RECEIVE = 'network-receive',
-
-    NETWORK_TRANSMIT_RECEIVE = 'network-transmit-receive',
-
-    NETWORK_TRANSMIT = 'network-transmit',
-
-    NETWORK_WIRELESS_ENCRYPTED = 'network-wireless-encrypted',
-
-    PRINTER_ERROR = 'printer-error',
-
-    SOFTWARE_UPDATE_AVAILABLE = 'software-update-available',
-
-    SOFTWARE_UPDATE_URGENT = 'software-update-urgent',
-
-    USER_TRASH_FULL = 'user-trash-full',
-
-    WEATHER_CLEAR_NIGHT = 'weather-clear-night',
-
-    /**
-	 * Sun
-	 */
-    WEATHER_CLEAR = 'weather-clear',
-
-    WEATHER_FEW_CLOUDS_NIGHT = 'weather-few-clouds-night',
-
-    /**
-	 * Sun partly overlaid by a cloud
-	 */
-    WEATHER_FEW_CLOUDS = 'weather-few-clouds',
-
-    /**
-	 * Clouds
-	 */
-    WEATHER_OVERCAST = 'weather-overcast',
-
-    WEATHER_SEVERE_ALERT = 'weather-severe-alert',
-
-    WEATHER_SHOWERS_SCATTERED = 'weather-showers-scattered',
-
-    WEATHER_SHOWERS = 'weather-showers',
-
-    WEATHER_SNOW = 'weather-snow',
-
-    /**
-	 * Cloud with lightning bolt
-	 */
+    const
+    AUDIO_VOLUME_HIGH = 'audio-volume-high';
+    const AUDIO_VOLUME_LOW = 'audio-volume-low';
+    const AUDIO_VOLUME_MEDIUM = 'audio-volume-medium';
+    const AUDIO_VOLUME_MUTED = 'audio-volume-muted';
+    const /*
+     * A battery with a yellow glow, yellow coloring
+     */
+    BATTERY_CAUTION = 'battery-caution';
+    const DIALOG_ERROR = 'dialog-error';
+    const DIALOG_INFORMATION = 'dialog-information';
+    const DIALOG_WARNING = 'dialog-warning';
+    const FOLDER_DRAG_ACCEPT = 'folder-drag-accept';
+    const FOLDER_OPEN = 'folder-open';
+    const FOLDER_VISITING = 'folder-visiting';
+    const IMAGE_LOADING = 'image-loading';
+    const IMAGE_MISSING = 'image-missing';
+    const MAIL_ATTACHMENT = 'mail-attachment';
+    const NETWORK_ERROR = 'network-error';
+    const NETWORK_IDLE = 'network-idle';
+    const NETWORK_OFFLINE = 'network-offline';
+    const NETWORK_RECEIVE = 'network-receive';
+    const NETWORK_TRANSMIT_RECEIVE = 'network-transmit-receive';
+    const NETWORK_TRANSMIT = 'network-transmit';
+    const NETWORK_WIRELESS_ENCRYPTED = 'network-wireless-encrypted';
+    const PRINTER_ERROR = 'printer-error';
+    const SOFTWARE_UPDATE_AVAILABLE = 'software-update-available';
+    const SOFTWARE_UPDATE_URGENT = 'software-update-urgent';
+    const USER_TRASH_FULL = 'user-trash-full';
+    const WEATHER_CLEAR_NIGHT = 'weather-clear-night';
+    const /*
+     * Sun
+     */
+    WEATHER_CLEAR = 'weather-clear';
+    const WEATHER_FEW_CLOUDS_NIGHT = 'weather-few-clouds-night';
+    const /*
+     * Sun partly overlaid by a cloud
+     */
+    WEATHER_FEW_CLOUDS = 'weather-few-clouds';
+    const /*
+     * Clouds
+     */
+    WEATHER_OVERCAST = 'weather-overcast';
+    const WEATHER_SEVERE_ALERT = 'weather-severe-alert';
+    const WEATHER_SHOWERS_SCATTERED = 'weather-showers-scattered';
+    const WEATHER_SHOWERS = 'weather-showers';
+    const WEATHER_SNOW = 'weather-snow';
+    const /*
+     * Cloud with lightning bolt
+     */
     WEATHER_STORM = 'weather-storm';
 
     public static function getContext()
     {
-      return 'status';
+        return 'status';
     }
 }

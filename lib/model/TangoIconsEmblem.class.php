@@ -6,26 +6,20 @@
  */
 class TangoIconsEmblem
 {
-  const
-	/**
-	 * A heart
-	 */
-    EMBLEM_FAVORITE = 'emblem-favorite',
-
-    EMBLEM_IMPORTANT = 'emblem-important',
-
-    EMBLEM_PHOTOS = 'emblem-photos',
-
-    EMBLEM_READONLY = 'emblem-readonly',
-
-    EMBLEM_SYMBOLIC_LINK = 'emblem-symbolic-link',
-
-    EMBLEM_SYSTEM = 'emblem-system',
-
-    EMBLEM_UREADABBLE = 'emblem-unreadable';
+    const
+    /*
+     * A heart
+     */
+    EMBLEM_FAVORITE = 'emblem-favorite';
+    const EMBLEM_IMPORTANT = 'emblem-important';
+    const EMBLEM_PHOTOS = 'emblem-photos';
+    const EMBLEM_READONLY = 'emblem-readonly';
+    const EMBLEM_SYMBOLIC_LINK = 'emblem-symbolic-link';
+    const EMBLEM_SYSTEM = 'emblem-system';
+    const EMBLEM_UREADABBLE = 'emblem-unreadable';
 
     public static function getContext()
     {
-      return 'emblems';
+        return 'emblems';
     }
 }

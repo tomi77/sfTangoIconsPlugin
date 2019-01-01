@@ -1,59 +1,59 @@
 <?php
+
 class TangoIconsSize
 {
-  const
-    /**
+    const
+    /*
     * At 16×16 pixels, the "Extra Small" size is used in places such as
     * lists (file dialog, message list in an e-mail client, etc.) and menus.
     */
-    EXTRA_SMALL = 16,
-
-    /**
+    EXTRA_SMALL = 16;
+    const /*
     * "Small" is the common size for application toolbar icons. Its bitmap
     * size is 22×22 pixels.
     */
-    SMALL = 22,
-
-    /**
+    SMALL = 22;
+    const /*
     * A very common size of 32x32px is used on some menus (slab).
     */
     MEDIUM = 32;
 
-  /**
-   * Normalize the size of the icons.
-   * @param string $size Icon size
-   *  <p>Proper values are:
-   *  <ul>
-   *   <li>For extra small icons:
-   *    <ul>
-   *     <li>16
-   *     <li>16px
-   *     <li>extra-small
-   *     <li>extra small
-   *     <li>x-small
-   *    </ul>
-   *   <li>For small icons:
-   *    <ul>
-   *     <li>22
-   *     <li>22px
-   *     <li>small
-   *    </ul>
-   *   <li>For medium icons:
-   *    <ul>
-   *     <li>32
-   *     <li>32px
-   *     <li>medium
-   *    </ul>
-   *  </ul>
-   *  </p>
-   * @return int Icon size in pixels
-   */
-  public static function normalize($size)
-  {
-    $size = strtolower(trim((string)$size));
-    
-    switch($size)
+    /**
+     * Normalize the size of the icons.
+     *
+     * @param string $size Icon size
+     *                     <p>Proper values are:
+     *                     <ul>
+     *                     <li>For extra small icons:
+     *                     <ul>
+     *                     <li>16
+     *                     <li>16px
+     *                     <li>extra-small
+     *                     <li>extra small
+     *                     <li>x-small
+     *                     </ul>
+     *                     <li>For small icons:
+     *                     <ul>
+     *                     <li>22
+     *                     <li>22px
+     *                     <li>small
+     *                     </ul>
+     *                     <li>For medium icons:
+     *                     <ul>
+     *                     <li>32
+     *                     <li>32px
+     *                     <li>medium
+     *                     </ul>
+     *                     </ul>
+     *                     </p>
+     *
+     * @return int Icon size in pixels
+     */
+    public static function normalize($size)
     {
+        $size = strtolower(trim((string) $size));
+
+        switch ($size) {
       case '16':
       case '16px':
       case 'extra-small':
@@ -72,5 +72,5 @@ class TangoIconsSize
         //TODO: log the bad icon size
         return 32;
     }
-  }
+    }
 }
