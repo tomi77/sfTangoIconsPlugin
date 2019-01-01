@@ -1,5 +1,7 @@
 # sfTangoIconsPlugin
 
+[![StyleCI](https://github.styleci.io/repos/49591110/shield?branch=master)](https://github.styleci.io/repos/49591110)
+
 symfony 1.x plugin that offers a set of [Tango Icons](http://tango.freedesktop.org/Tango_Icon_Library) in sizes *extra small* (16x16 px), *small* (22x22 px) and *medium* (32x32 px).
 
 ## Installation
